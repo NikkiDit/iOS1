@@ -93,11 +93,12 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
                                     <tabBarItem systemItem="favorites" id="rZa-So-ejc"/>
+                                    <tabBarItem title="Item" id="lPd-c7-vsL"/>
                                     <tabBarItem systemItem="more" id="i5J-nD-toW"/>
                                 </items>
                             </tabBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Hch-tb-TOT">
-                                <rect key="frame" x="-6" y="64" width="332" height="384"/>
+                                <rect key="frame" x="-6" y="63" width="332" height="457"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -109,19 +110,19 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="75" id="6OA-7e-doN">
-                                        <rect key="frame" x="0.0" y="22" width="332" height="75"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="124" id="6OA-7e-doN">
+                                        <rect key="frame" x="0.0" y="22" width="332" height="124"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6OA-7e-doN" id="cVn-NV-G9I">
-                                            <rect key="frame" x="0.0" y="0.0" width="332" height="74"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="332" height="123"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="142" id="OzK-JD-GDo">
-                                        <rect key="frame" x="0.0" y="97" width="332" height="142"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="160" id="OzK-JD-GDo">
+                                        <rect key="frame" x="0.0" y="146" width="332" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OzK-JD-GDo" id="epI-Xt-EDl">
-                                            <rect key="frame" x="0.0" y="0.0" width="332" height="141"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="332" height="159"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -131,10 +132,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems>
-                        <barButtonItem title="Item" id="i1w-gz-54c"/>
-                        <barButtonItem title="Item" id="jqL-e9-PEU"/>
-                        <barButtonItem title="Item" id="lTV-fO-JTM"/>
-                        <barButtonItem title="Item" id="pXu-wq-c21"/>
+                        <barButtonItem title="Timelines" id="pXu-wq-c21"/>
+                        <barButtonItem title="Messages" id="jqL-e9-PEU"/>
+                        <barButtonItem title="Me" id="lTV-fO-JTM"/>
+                        <barButtonItem title="Notifications" id="i1w-gz-54c"/>
                     </toolbarItems>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>

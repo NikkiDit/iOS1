@@ -10,7 +10,7 @@
 #import "Tweet.h"
 
 @interface ViewController ()
-@property (strong, nonatomic) IBOutletCollection(UITableView) NSArray *myUITableview;
+
 @property (weak, nonatomic) IBOutlet UITabBar *myUITabBar;
 
 @property (weak, nonatomic) IBOutlet UITableViewCell *myUITableviewcell;
