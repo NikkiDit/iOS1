@@ -13,7 +13,6 @@
 
 @property (weak, nonatomic) IBOutlet UITabBar *myUITabBar;
 
-@property (weak, nonatomic) IBOutlet UITableViewCell *myUITableviewcell;
 @end
 
 @implementation ViewController
@@ -24,18 +23,6 @@
 	
 }
 
-
-void (^completionBlock)(AFHTTPRequestOperation *operation, id responseObject);{
-    NSDictionary *jsonDictionary = (NSDictionary*)responseObject;
-    Tweet *tweet     = [[Tweet alloc] init];
-    tweet.name       = jsonDictionary[@"name"];
-    tweet.username   = jsonDictionary[@"username"];
-    tweet.text       = jsonDictionary[@"tweet"];
-    tweet.avatarURL  = jsonDictionary[@"avatar"];
-    tweet.time       = jsonDictionary[@"time"];
-    
-    [_tweets addObject:tweet];
-}
 
 @end
 
