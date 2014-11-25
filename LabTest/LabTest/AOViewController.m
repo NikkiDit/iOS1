@@ -54,13 +54,7 @@ static NSString *CellIdentifier = @"CellIdentifier";
 }
 
 
-//-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    
-//    UILabel *label = (UILabel *) [cell.contentView viewWithTag:5];
- //   [label setText: [NSString stringWithFormat:@"Row %i in Section %i",[indexPath row], [indexPath section] ] ];
- //   return cell;
-//}
+
 
 -(BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath{
     return NO;

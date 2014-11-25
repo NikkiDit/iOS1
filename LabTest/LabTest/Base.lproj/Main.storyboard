@@ -80,11 +80,11 @@
             </objects>
             <point key="canvasLocation" x="1223" y="132"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar Controller - Tab Bar Controller-->
         <scene sceneID="WkR-we-cdh">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QfR-cH-B8p" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tabBarController definesPresentationContext="YES" id="LOr-m6-jbc" sceneMemberID="viewController">
+                <tabBarController title="Tab Bar Controller" definesPresentationContext="YES" id="LOr-m6-jbc" sceneMemberID="viewController">
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="cYd-TR-Ssd">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
@@ -111,6 +111,18 @@
                     <view key="view" contentMode="scaleToFill" id="pN0-bs-UrO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower3" translatesAutoresizingMaskIntoConstraints="NO" id="KKb-BT-I67">
+                                <rect key="frame" x="39" y="174" width="228" height="247"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IOS LAB TEST" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxi-U5-ma7">
+                                <rect key="frame" x="82" y="100" width="157" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="SfN-fe-d7I"/>
@@ -138,6 +150,9 @@
             <point key="canvasLocation" x="336" y="132"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="flower3" width="230" height="219"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
